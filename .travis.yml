@@ -13,7 +13,7 @@ install: yarn install
 before_script: grunt build
 script: 
     - sh create-dir.sh
-    - yarn test  
+    - yarn start  
 deploy: 
   local-dir: motley-gh
   provider: pages
